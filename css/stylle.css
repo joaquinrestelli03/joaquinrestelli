@@ -1,0 +1,412 @@
+/*   h2 {
+        color: firebrick
+    }
+
+    h1 {
+        color: darkslategray;
+    }
+
+    main h2.amarillo {
+        color: yellow;
+    }
+
+    #red {
+        color: red
+    }
+*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.negrita {
+    color: black;
+}
+
+#green {
+    color: green;
+}
+
+.tipografia {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+@font-face {
+    font-family: sans-serif;
+    src: format(font-family);
+
+    header.position-sticky {
+        position: sticky;
+        top: 0;
+        z-index: 100;
+    }
+}
+.top{
+    color: #0e0e0e;
+    padding-left: 15px;
+    padding-bottom: 15px;
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+header {
+    padding: 10px 10px;
+    background-color: rgb(53, 53, 53);
+
+    
+}
+
+
+header div img {
+    vertical-align: middle;
+}
+
+header.position-sticky {
+    position: sticky;
+    top: 15px;
+    z-index: 100;
+}
+
+.listamenu {
+    margin: 15px;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+h1 {
+    color: rgba(244, 244, 245, 0.897);
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    background-color: red;
+    padding: 2px 2px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border: 3px solid black;
+    border-radius: none;
+}
+
+
+.titulos-productos {
+    text-align: center;
+    padding: 15px 5px 25px 35px;
+    border: 3px solid rgb(246, 1, 1);
+    border-radius: 15px 5px 10px;
+    width: 40%;
+
+}
+.subtitulos-productos{
+    position: relative;
+    bottom: 12px;
+    left: 1px;
+    background-color: dimgray;
+}
+.ofertas{background-color: rgb(49, 49, 50);
+}
+
+
+.ofertas-titulo{
+    padding-top: 10px;
+    padding-bottom: 5px;
+    text-align: center;
+    font-size: 1.25rem;
+    color: rgb(253, 251, 251);
+}
+.ofertas-padre{
+    padding: 25px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    row-gap: 20px;
+}
+
+.tarjeta {
+    width: 220px;  
+    border: 1px solid rgb(108, 100, 100);
+    border-radius: 15px;
+    background-color: rgb(130, 129, 129);
+    color: white;
+    text-align: center;
+}
+.ofertas-padre .tarjeta h3 {
+    font-family: sans-serif;
+    padding: 15px;
+}
+
+.tarjeta producto1{
+    width: 100%;
+    
+}
+
+.tarjeta-sumar {
+    color: rgb(5, 5, 5);
+    font-size: 1.0rem;
+    font-weight: 400px;
+}
+.ultimas{
+    background-color: rgb(239, 18, 18);
+}
+.ultimas .subtitulo-ultimas{
+    padding: 10px;
+    text-align: center;
+    font-size: 1.95rem;
+    color: rgb(244, 241, 235);
+}
+
+.ultimas .ultimas-unidades-padre{
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+    
+.ultimas-unidades-padre .tarjeta, .tarjeta-img {
+    border-radius: initial;
+ }
+.ultimas-unidades-padre .relative-oferta{
+    position: relative;
+}
+
+.ultimas-unidades-padre .tarjeta{
+    height:none;
+}
+
+.ultimas .ultima-parrafo{
+    width: 50%;
+    margin: 25px auto;
+    text-align: center;
+    padding: 25px;
+}
+.oferta {
+    font-size: 10px;
+    border-radius: 80%;
+    background-color: rgb(8, 8, 8);
+    color: rgb(253, 253, 252);
+    padding: 10px 2px;
+}
+.position-absolute{
+    position: absolute;
+    top: 2px;
+    right: 5px;
+}
+footer{
+    margin-bottom: 50px;
+}
+.redes-sociales{
+    display: flex;
+    justify-content: space-around;
+}
+footer h6{
+    text-align: center;
+}
+.whatsapp img{
+    width: 40px;
+}
+.position-fixed{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+div h3{
+    text-align: center;
+}
+/* nosotros grid */
+.banner{
+    position: sticky;
+}
+section.banner {
+    margin: 50px;
+}
+
+.banner img {
+    height: 200px;
+    width: 95%;
+    /* para centrar con margin auto debo colocar display block */
+    display: block;
+    margin: auto;
+}
+
+.titulos-principales {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    text-transform: uppercase;
+    padding: 25px;
+}
+
+h1.titulos-principales {
+    color: #eb4c4c;
+    background: #434342;
+}
+
+h2.titulos-principales {
+    color: #0e0e0e;
+    background-color: #7b7975;
+}
+
+.titulos-recientes {
+    background-color: #242525;
+    padding: 25px;
+    color: #efefec;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.titulos-recientes h2,
+.resumen h3 {
+    margin: 5px;
+    text-align: center;
+}
+
+.titulos-recientes ul {
+    line-height: 2.5;
+}
+
+.resumen {
+    background: #424141;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.15rem;
+    color: #e9e0e9;
+    padding: 15px;
+    /* display: flex;
+    flex-direction: column; */
+
+}
+
+.resumen p {
+    line-height: 1.5;
+    text-align: justify;
+    padding: 5px 8px;
+    font-size: 0.9rem;
+    width: 80%;
+    margin: auto;
+}
+
+.resumen .redes-resumen {
+    display: flex;
+    width: 50%;
+    justify-content: space-evenly;
+    height: 15%;
+    align-items: center;
+}
+
+.resumen .redes-resumen i {
+    color: black;
+    font-size: 20px;
+}
+
+footer {
+    margin: 20px;
+    padding: 5px;
+    text-align: center;
+}
+.grids {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 250px 250px repeat(3, 0.35fr);
+    grid-template-areas:
+        "titulo-reciente titulo-principal horario"
+        "titulo-reciente imagen resumen1"
+        "resumen3 img-principal joystick-blanco"
+        "nintendo service joystick-blanco"
+        "nintendo resumen2 resumen2";
+}.titulosRecientes {
+    grid-area: tituloReciente;
+}
+
+h1.titulosPrincipales {
+    grid-area: tituloPrincipal;
+}
+
+h2.titulosPrincipales {
+    grid-area: horario;
+}
+
+.gridPrincipal {
+    grid-area: imgPrincipal;
+}
+
+.resumen1 {
+    grid-area: resumen1;
+}
+
+.resumen2 {
+    grid-area: resumen2;
+}
+
+.resumen3 {
+    grid-area: resumen3;
+}
+
+.joystick-blanco {
+    grid-area: joystick-blanco;
+}
+
+.service {
+    grid-area: service;
+}
+
+.nintendo {
+    grid-area: nintendo;
+}
+
+.img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.grids .grid-principal img {
+    object-fit: contain;
+    background-color: rgb(54, 51, 51);
+}
+/* -----------------grid lines */
+/* las imagenes se ajustan al tamaño de su contenedor */
+
+
+
+
+/*regla media query*/ 
+/*mobile*/
+@media only screen and (max-width: 500px){
+    Body{
+        background-color: #d4d4d4;
+    }
+}
+/*tablet*/
+@media only screen and (min-width: 501px) and (max-width:960px){
+    body {background-color: #c8c8c4;}
+
+}
+/*desktop*/
+@media only screen and (min-width: 961px) {
+    body {
+        background-color: #e9e0e9;
+    }
+}
+/*pseudoclases*/
+/*hover*/
+.top:hover{
+    color: red;
+    text-decoration: none;
+}
+
+
