@@ -29,15 +29,15 @@
 }
 
 @font-face {
-    font-family: sans-serif;
-    src: format(font-family);
+    font-family: sans-serif; 
+    src: format(font-family);}
 
     header.position-sticky {
         position: sticky;
         top: 0;
         z-index: 100;
     }
-}
+    
 .top{
     color: #0e0e0e;
     padding-left: 15px;
