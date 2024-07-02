@@ -387,7 +387,7 @@ h2.titulosPrincipales {
 /*regla media query*/ 
 /*mobile*/
 @media only screen and (max-width: 500px){
-    Body{
+    body{
         background-color: #d4d4d4;
     }
 }
