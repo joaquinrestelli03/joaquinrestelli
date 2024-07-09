@@ -391,7 +391,7 @@ h2.titulosPrincipales {
         background-color: #d4d4d4;
     }
     header.position-sticky {
-        position: sticky;
+        position: sticky none;
         top: 0;
         z-index: 100;
     }
@@ -399,7 +399,7 @@ h2.titulosPrincipales {
         margin: 15px;
         color: aliceblue;
         display: flex;
-        justify-content: space-between;
+        justify-content: space-between none;
     }
     
     
