@@ -15,7 +15,37 @@
     }
 */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-
+h1 {
+    color: rgba(244, 244, 245, 0.897);
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    background-color: red;
+    padding: 2px 2px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border: 3px solid black;
+    border-radius: none;
+}
+main h1.pagina-principal{
+    color: white;
+    text-align: center;
+    
+    background-color:red;
+    padding:  2px 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 3px solid black ;
+    border-radius: px;
+}
+h1{
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    background-color:red;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 3px solid black ;
+}
 main h1.titulos-principales{
     color:white;
     text-align: center;
@@ -121,17 +151,6 @@ ul li a {
     color: white;
 }
 
-h1 {
-    color: rgba(244, 244, 245, 0.897);
-    font-family: "Roboto", sans-serif;
-    text-align: center;
-    background-color: red;
-    padding: 2px 2px;
-    margin-top: 25px;
-    margin-bottom: 25px;
-    border: 3px solid black;
-    border-radius: none;
-}
 
 
 .titulos-productos {
