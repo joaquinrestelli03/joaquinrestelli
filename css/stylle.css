@@ -26,9 +26,22 @@ main h2.amarillo {
 
 }
 main p {background-color: #7b7975;}
-main img {vertical-align: middle;
-padding-left:none;}
+/*main img {vertical-align: middle;
+padding-left:none;}*/
 
+main h2.ubicaciones {
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #7b7975;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 3px solid black ;
+}
+main h2 div.mapa {
+    text-align: center;
+    vertical-align: middle;
+}
 .negrita {
     color: black;
 }
@@ -246,13 +259,25 @@ div h3{
     position: sticky;
 }
 section.banner {
-    margin: 50px;
+    margin: 20px;
 }
 
 .banner img {
-    height: 200px;
+    height: 250px;
     width: 95%;
     /* para centrar con margin auto debo colocar display block */
+    display: block;
+    margin: auto;
+}
+.fornite {
+    position:sticky;  
+}
+section.fornite {
+    margin: 0px;
+}
+.fornite img {
+    height:100px;
+    width: 95%;
     display: block;
     margin: auto;
 }
@@ -416,9 +441,9 @@ h2.titulosPrincipales {
         display: flex;
         justify-content: space-between none;
     }
+    main img {display: flex}
     
-    
-    
+
 }
 
 /*tablet*/
