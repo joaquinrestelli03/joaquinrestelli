@@ -16,6 +16,12 @@
 */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
+main h1.titulos-principales{
+    color:white;
+    text-align: center;
+    vertical-align: middle;
+
+}
 main h2.amarillo {
     color:rgb(246, 245, 244); 
    text-align: center;
@@ -368,19 +374,19 @@ footer {
         "resumen3 img-principal joystick-blanco"
         "nintendo service joystick-blanco"
         "nintendo resumen2 resumen2";
-}.titulosRecientes {
-    grid-area: tituloReciente;
+}.titulos-recientes {
+    grid-area: titulo-reciente;
 }
 
-h1.titulosPrincipales {
-    grid-area: tituloPrincipal;
+h1.titulos-principales {
+    grid-area: titulo-principal;
 }
 
-h2.titulosPrincipales {
+h2.titulos-principales {
     grid-area: horario;
 }
 
-.gridPrincipal {
+.grid-principal {
     grid-area: imgPrincipal;
 }
 
