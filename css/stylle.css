@@ -447,9 +447,9 @@ h2.titulos-principales {
         display: flex;
         justify-content: space-between none;
     }
-    main img {display: flex}
+    main section img {display: flex}
     
-
+    
 }
 
 /*tablet*/
