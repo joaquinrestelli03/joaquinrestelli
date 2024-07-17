@@ -78,6 +78,9 @@ main h2 div.mapa {
     text-align: center;
     vertical-align: middle;
 }
+main h2.servicios {
+background-color: #7b7975;
+}
 .negrita {
     color: black;
 }
